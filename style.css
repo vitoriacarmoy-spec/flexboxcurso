@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 body{
     background-color: blueviolet;
+    height: 100vh;
+    align-items: center;
   
 }
 *{ font-family: "Space Grotesk", sans-serif;
@@ -224,4 +226,38 @@ display: flex;
       justify-content: center ;
       align-items: center;
 
+}
+
+.container7{
+    width: 600px;
+    height: 500px;
+    background-color: brown;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+  width: 350px;
+  height: 500px;
+  background-color: cornflowerblue
+  ;border-radius: 10px;
+  padding:20px 40px;
+}
+.peg{ 
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    height: 100px; 
+    align-items: center;
+}
+.peg img{
+width: 150px;
+}
+
+.config input{
+     border: none;
+     border-bottom: 1 px solid gray;
+     width: 100%;
+     padding: 10px 5px;
 }
