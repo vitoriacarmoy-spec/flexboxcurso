@@ -293,3 +293,34 @@ span{
     font-weight: bold;
     color: red;
 }
+
+.container8{
+  display: flex;
+  width: 600px;
+  height: 300px;
+  background-color: black;
+  margin-top: 5px;
+}
+/*pra usar o flexshink o elemento pai tem que ser menor*/
+.item{
+    display: flex;
+    width: 250px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item1{
+background-color: #4A5DF3;
+flex-shrink: 3;
+}
+
+.item2{
+background-color: palegreen;
+flex-shrink: 2;
+}
+
+.item3{
+background-color: peachpuff;
+flex-shrink: 1;
+}
