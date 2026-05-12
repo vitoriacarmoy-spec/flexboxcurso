@@ -199,3 +199,29 @@ display: flex;
     flex-grow: 3;
     transition:1s;
 }
+
+.container6{
+    width: 400px;
+    height: 400px;
+    background-color: darkgreen;
+    display:flex;
+
+    /*esticar as divs de acordo com o pai*/
+    justify-content: flex-start;
+    /*o align itens  stretch o faria.
+    mas foi estudado flexend, flexstart, baseline,center*/
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.pl{
+    width: 100px;
+      background-color: aquamarine;
+     height: 100px;
+      margin: 10px;
+
+      display: flex;
+      justify-content: center ;
+      align-items: center;
+
+}
