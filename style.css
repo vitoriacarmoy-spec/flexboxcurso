@@ -324,3 +324,29 @@ flex-shrink: 2;
 background-color: peachpuff;
 flex-shrink: 1;
 }
+
+.container9{
+    display: flex;
+    width: 600px;
+    height: 500px;
+    background-color:rgb(15, 15, 32);
+    margin-top: 15px;
+    /*ele faz uma coluna ajustada com a height*/
+    flex-direction: column;
+    /*quando o flex direction ta em uso, inverte o uso de justify content X align items */
+    align-items: center;
+}
+
+.far{
+    width: 200px;
+    height:100px ;
+    background-color: burlywood;
+    margin: 5px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.far2{
+    display: flex;
+    flex-grow: 2;
+}
