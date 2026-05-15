@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
 body{
     background-color: blueviolet;
     height: 100vh;
@@ -353,12 +354,13 @@ flex-shrink: 1;
 
 .container10{
     width: 250px;
-    height: 500px;
+   
     background-color: rgb(114, 170, 11);
     margin-top: 10px;
      display:flex;
      justify-content: center;
      align-items: center;
+     padding: 15px;
 
 }
 
@@ -372,12 +374,64 @@ flex-shrink: 1;
 
 .pessoa{
     width: 100%;
-    background-color: #4A5DF3 ;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .img{
     background-image: url('src/quad.png');
     width: 75px;
-    height: 45px;
+    height: 75px;
     background-size: cover;
+    border-radius: 50px;
+    border: 2px solid black;
 }  
+
+.pessoa h2{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+.pessoa p{
+    margin-top: 3px;
+    font-size: 14px;
+
+}
+
+.social{
+    width: 100%;
+    margin-top: 20px
+}
+
+.botoes{
+    width: 100%;
+    
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-around;
+  
+}
+
+.botoes i{
+    
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 11px;
+
+}
+
+.botoes i:hover{
+    background-color: rgb(255, 81, 81);
+    color: white;
+
+    cursor: pointer;
+}
